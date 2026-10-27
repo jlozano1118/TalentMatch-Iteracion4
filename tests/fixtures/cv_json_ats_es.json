@@ -1,0 +1,44 @@
+{
+  "candidato": {
+    "nombre": "Andrés Felipe Rincón",
+    "correo": "andres.rincon.test@example.com",
+    "telefono": "3155550404",
+    "cargo_actual": "Administrador de Infraestructura",
+    "ciudad": "Bogotá"
+  },
+  "cedula": "1010555555",
+  "experiencia": [
+    {
+      "cargo": "Administrador de Sistemas",
+      "empresa": "Telecom Andina",
+      "fecha_inicio": "2018-05",
+      "fecha_fin": "actual",
+      "descripcion": "Administración de servidores Linux y Windows Server, Active Directory, VMware y redes TCP/IP."
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "Ingeniería Electrónica",
+      "institucion": "Universidad Distrital",
+      "nivel": "Profesional"
+    }
+  ],
+  "habilidades_tecnicas": [
+    "Linux",
+    "Windows Server",
+    "Active Directory",
+    "Virtualization",
+    "Networking",
+    "Bash",
+    "Ansible",
+    "Troubleshooting"
+  ],
+  "power_skills": [
+    "Orientación al cliente",
+    "Toma de decisiones",
+    "Trabajo bajo presión"
+  ],
+  "idiomas": [
+    "Inglés B1"
+  ]
+}

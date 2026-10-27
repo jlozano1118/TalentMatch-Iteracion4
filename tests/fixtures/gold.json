@@ -1,0 +1,39 @@
+{
+  "_descripcion": "Etiquetas de referencia (ground truth) de los CV de PRUEBA ficticios, usadas para medir precisión y exhaustividad de la extracción.",
+  "cv_texto_data_engineer.pdf": {
+    "tech": ["python", "sql", "apache spark", "apache kafka", "apache airflow", "aws", "docker", "git", "power bi", "tableau",
+             "machine learning", "data warehousing", "etl", "postgresql", "sql server", "pandas", "numpy", "amazon redshift",
+             "data modeling", "data analysis", "data visualization", "data pipelines"],
+    "soft": ["teamwork", "leadership", "problem_solving", "communication", "adaptability", "critical_thinking", "mentoring"],
+    "years_min": 7.0, "years_max": 8.0, "education_level": 5,
+    "sensitive": ["Documento de identidad", "Fecha de nacimiento", "Estado civil"]
+  },
+  "cv_escaneado_fullstack.pdf": {
+    "tech": ["javascript", "typescript", "react", "node.js", "java", "spring boot", "html", "css", "mysql", "mongodb", "git",
+             "docker", "aws", "rest api", "jenkins", "ci/cd", "microservices", "unit testing"],
+    "soft": ["continuous_learning", "teamwork", "creativity", "time_management"],
+    "years_min": 5.0, "years_max": 6.0, "education_level": 3,
+    "sensitive": []
+  },
+  "cv_imagen_fullstack.png": {
+    "tech": ["javascript", "typescript", "react", "node.js", "java", "spring boot", "html", "css", "mysql", "mongodb", "git",
+             "docker", "aws", "rest api", "jenkins", "ci/cd", "microservices", "unit testing"],
+    "soft": ["continuous_learning", "teamwork", "creativity", "time_management"],
+    "years_min": 5.0, "years_max": 6.0, "education_level": 3,
+    "sensitive": []
+  },
+  "cv_json_resume.json": {
+    "tech": ["python", "scikit-learn", "tensorflow", "xgboost", "sql", "pandas", "statistics", "r", "tableau", "machine learning",
+             "natural language processing", "aws"],
+    "soft": ["critical_thinking", "communication", "mentoring", "leadership"],
+    "years_min": 7.0, "years_max": 8.2, "education_level": 6,
+    "sensitive": ["Fecha de nacimiento", "Sexo / género"]
+  },
+  "cv_json_ats_es.json": {
+    "tech": ["linux", "windows server", "active directory", "virtualization", "networking", "shell scripting", "ansible",
+             "troubleshooting", "tcp/ip"],
+    "soft": ["customer_orientation", "decision_making", "pressure"],
+    "years_min": 8.0, "years_max": 8.6, "education_level": 4,
+    "sensitive": ["Documento de identidad"]
+  }
+}

@@ -1,0 +1,19 @@
+# Blueprint de Render: New + → Blueprint → seleccionar este repositorio.
+services:
+  - type: web
+    name: talentmatch
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: TM_COOKIE_SECURE
+        value: "true"            # Render sirve por HTTPS
+      - key: TM_JWT_SECRET
+        generateValue: true      # secreto estable entre reinicios
+      - key: TM_ENCRYPTION_KEY
+        sync: false              # pegar una llave Fernet generada localmente (ver README)
+      - key: TM_WARM_BENCHMARK
+        value: "false"           # ahorra memoria en el plan gratuito; se calcula al abrir "Ética"
+      - key: TM_RETENTION_DAYS
+        value: "365"

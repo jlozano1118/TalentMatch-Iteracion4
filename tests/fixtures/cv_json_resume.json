@@ -1,0 +1,79 @@
+{
+  "basics": {
+    "name": "Mariana Torres Gil",
+    "label": "Científica de Datos",
+    "email": "mariana.torres.test@example.com",
+    "phone": "+57 301 555 0303",
+    "summary": "Científica de datos enfocada en modelos de riesgo y NLP.",
+    "location": {
+      "city": "Cali",
+      "countryCode": "CO"
+    }
+  },
+  "fecha_nacimiento": "1996-07-21",
+  "genero": "F",
+  "work": [
+    {
+      "name": "Aseguradora del Pacífico",
+      "position": "Data Scientist",
+      "startDate": "2021-02",
+      "endDate": "",
+      "summary": "Modelos de machine learning con scikit-learn y XGBoost para scoring de riesgo; NLP con spaCy.",
+      "highlights": [
+        "Lideré la migración de modelos a AWS SageMaker",
+        "Presenté resultados a la junta directiva"
+      ]
+    },
+    {
+      "name": "Universidad del Valle",
+      "position": "Asistente de investigación",
+      "startDate": "2019-01",
+      "endDate": "2020-12",
+      "summary": "Análisis estadístico en R y Python."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad del Valle",
+      "area": "Estadística",
+      "studyType": "Pregrado"
+    },
+    {
+      "institution": "Universidad Icesi",
+      "area": "Ciencia de Datos",
+      "studyType": "Maestría"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Python",
+        "scikit-learn",
+        "TensorFlow",
+        "XGBoost"
+      ]
+    },
+    {
+      "name": "Datos",
+      "keywords": [
+        "SQL",
+        "Pandas",
+        "Statistics",
+        "R",
+        "Tableau"
+      ]
+    }
+  ],
+  "soft_skills": [
+    "Pensamiento crítico",
+    "Comunicación",
+    "Mentoría"
+  ],
+  "languages": [
+    {
+      "language": "Inglés",
+      "fluency": "C1"
+    }
+  ]
+}
